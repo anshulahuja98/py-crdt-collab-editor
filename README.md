@@ -5,7 +5,7 @@ CRDT based collaborative code/text editor.
 - flask 
 - requests
 - python3-crdt
-  - The editor is dependent on the python3-crdt library which is available on pypi.org and can be installed using 
+  - The editor is dependent on the [python3-crdt](https://pypi.org/project/python3-crdt/) library which is available on pypi.org and can be installed using 
     ```python
     pip install python3-crdt
     ```
