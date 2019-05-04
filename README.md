@@ -10,15 +10,25 @@ CRDT based collaborative code/text editor.
     pip install python3-crdt
     ```
 ## Usage
-Clone the project and then run the following commands
-```python
+1. Clone the project 
+   ```
+   git clone https://github.com/anshulahuja98/py-crdt-collab-editor
+   ```
+1. Install requirements
+   ```
+    pip install pipenv # Installs pipenv
+    pipenv install     # Installs the requirements from pipfile
+   ```
+1. Run one server
+   ```
+    flask run -p 8000  # In one terminal
+    # Open 127.0.0.1:8000 in browser window
+   ```
+1. Run another server
+   ```
+    flask run -p 8001  # In another terminal
+    # Open 127.0.0.1:8001 in another browser window
+   ```
 
-flask run -p 8000 # In one terminal
-# Open 127.0.0.1:8000 in browser window
-
-
-flask run -p 8001 # In another terminal
-# Open 127.0.0.1:8001 in another browser window
-```
-Experience the power of collaborative text editing.
+> Experience the power of collaborative text editing.
 
